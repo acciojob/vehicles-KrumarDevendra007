@@ -46,10 +46,10 @@ public class Car extends Vehicle {
     }
 
     // getter ans setter for Manual
-    public boolean getManual(){
+    public boolean isManual(){
         return isManual;
     }
-    public void setManual(boolean isManual){
+    public void isManual(boolean isManual){
         this.isManual = isManual;
     }
 
